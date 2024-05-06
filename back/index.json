@@ -1,0 +1,14 @@
+{
+    "user": [
+      {
+        "user": "admin",
+        "contrasena": "1234",
+        "id": "jefe1"
+      },
+      {
+        "user": "angel",
+        "contrasena": "1234",
+        "id": "user1"
+      }
+    ]
+}
