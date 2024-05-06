@@ -9,11 +9,14 @@ const Login = () => {
   const [getContrasena, setContrasena] = useState("");
   const [usuarios, setUsuarios] = useState([]);
   const redireccion = useNavigate();
+
   async function getUsuarios() {
     let resultado = await axios.get(urlUsuarios);
     console.log(resultado.data);
     setUsuarios(resultado.data);
+    
   }
+
   function validarInicioSesion() {
     if (buscarUsuario()) {
       console.log("Inicio de sesión correcta");
@@ -25,6 +28,7 @@ const Login = () => {
   useEffect(() => {
     getUsuarios();
   }, []);
+  
   function buscarUsuario() {
     return usuarios.some(
       (usuario) =>

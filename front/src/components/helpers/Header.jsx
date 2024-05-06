@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <header>
+    <header id="vista-usuario">
       <img src="" alt="Logo" />
       <nav>
         <a href="">Servicios</a>
