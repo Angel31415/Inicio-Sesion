@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "json": "json-server index.json"
+    "json": "json-server index.json",
+    "dev": "examen de inicio.js"
   },
   "keywords": [
     "Node",
