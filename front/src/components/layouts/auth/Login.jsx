@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { usuarios } from "../../database/dataBase.jsx";
+//import { usuarios } from "../../database/dataBase.jsx";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./Login.css";
@@ -59,9 +59,7 @@ const Login = () => {
           <button onClick={validarInicioSesion} type="button" className="btn">
             Iniciar Sesión
           </button>
-          <Link to="/registro" type="button" className="btn">
-            Crear Cuenta
-          </Link>
+
         </section>
       </div>
     </form>
